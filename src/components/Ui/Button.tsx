@@ -7,8 +7,12 @@ interface ButtonProps {
   children?: ReactNode;
 }
 
-const Button: FunctionComponent<ButtonProps> = ({ className, children }) => {
-  return <button className={`${classes.button} ${className}`}>{children}</button>;
+const Button: FunctionComponent<ButtonProps> = ({ className, children, ...props }) => {
+  return (
+    <button className={`${classes.button} ${className}`} {...props}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

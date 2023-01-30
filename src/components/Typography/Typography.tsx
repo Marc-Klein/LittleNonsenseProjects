@@ -4,8 +4,6 @@ import cn from "classnames";
 
 import classes from "./Typography.module.css";
 
-// TODO fix typescript error in Typo component maybe with enum
-
 interface TypographyProps {
   children?: ReactNode;
   variant: keyof typeof variantsMapping;
