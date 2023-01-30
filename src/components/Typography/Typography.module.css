@@ -1,0 +1,63 @@
+.typo-h1 {
+    font-size: 6rem; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+.typo-h2 {
+    font-size: 3.75rem; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+.typo-h3 {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+.typo-h4 {
+    font-size: 2.125rem; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+.typo-h5 {
+    font-size: 1.5em; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+.typo-h6 {
+    font-size: 1.25rem; 
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+.typo-subheading1{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0;
+  }
+
+.typo-subheading2{
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 0;
+  }
+
+.typo-body1 {
+    font-size: 1rem;
+  }
+
+.typo-body2 {
+    font-size: 0.875rem;
+  }
+
+.typoColor-primary {
+    color: #000;
+  }
+
+.typoColor-error {
+    color: rgb(251, 0, 0);
+  }
